@@ -1,0 +1,254 @@
+afegir text "Critica a la razon pura" autor "Immanuel Kant"
+La metafisica, conocimiento especulativo de la razon, completamente aislado, que se levanta enteramente por encima de lo que enseña la experiencia, con meros conceptos no aplicandolos a la intuicion, como hacen las matematicas , donde, por tanto, la razon ha de ser discipula de si misma, no ha tenido hasta ahora la suerte de poder tomar el camino seguro de la ciencia.
+Y ello a pesar de ser mas antigua que todas las demas y de que seguiria existiendo aunque estas desaparecieran totalmente en el abismo de una barbarie que lo aniquilara todo.
+Efectivamente, en la metafisica la razon se atasca continuamente, incluso cuando, hallandose frente a leyes que la experiencia mas ordinaria confirma, ella se empeña en conocerlas a priori.
+Incontables veces hay que volver atras en la metafisica, ya que se advierte que el camino no conduce a donde se quiere ir.
+Por lo que toca a la unanimidad de lo que sus partidarios afirman, esta aún tan lejos de ser un hecho, que mas bien es un campo de batalla realmente destinado, al parecer, a ejercitar las fuerzas propias en un combate donde ninguno de los contendientes ha logrado jamas conquistar el mas pequeño terreno ni fundar sobre su victoria una posesion duradera.
+No hay, pues, duda de que su modo de proceder, ha consistido, hasta la fecha, en un mero andar a tientas y, lo que es peor, a base de simples conceptos.
+****
+
+afegir text "El Abecedario" autor " Anonimo "
+a b c d e f g h i j k l m n o p q r                      s t u v                       w x y z                            .
+a, b c a; b c d a   : b c e?
+u v w x y z ?
+****
+
+afegir text "Steve Angello: Wild Youth" autor "Steve Angello "
+Prisoner, Wild Youth.
+Someone Else, Wild Youth.
+Rebel Nation, Wild Youth.
+Revolution, Wild Youth.
+Stay, Wild Youth.
+Stockholm Skies, Wild Youth.
+Last Dance, Wild Youth.
+Tiger, Wild Youth.
+Remember, Wild Youth.
+The Ocean, Wild Youth.
+Wasted Love, Wild Youth.
+Prisoner, Wild Youth.
+Children of the Wild, Wild Youth.
+****
+
+afegir text " Fundamentacion de la metafisica de las costumbres " autor "Immanuel Kant"
+La antigua filosofia griega dividiase en tres ciencias: la fisica, la etica y la logica.
+Esta division es perfectamente adecuada a la naturaleza de la cosa y nada hay que corregir en ella; pero convendra quiza añadir el principio en que se funda, para cerciorarse asi de que efectivamente es completa y poder determinar exactamente las necesarias subdivisiones.
+****
+
+afegir text " Critica a la razon pura " autor "Immanuel Kant"
+La Critica de la razon pura es la obra principal del filosofo prusiano Immanuel Kant.
+Tuvo su primera edicion en 1781.
+El propio Kant llego a corregirla, publicando en 1787 una segunda edicion.
+En esta obra, Kant intenta la conjuncion de racionalismo y empirismo, haciendo una critica de las dos corrientes filosoficas que se centraban en el objeto como fuente de conocimiento, y asi, dando un giro copernicano al modo de concebir la filosofia, estudiando el sujeto como la fuente que construye el conocimiento del objeto, a traves de la representacion que el sujeto, mediante la sensibilidad inherente a su naturaleza toma del objeto.
+****
+
+textos autor "Immanuel Kant" ?
+
+tots textos ?
+
+tots autors ?
+
+frases 0 0 ?
+
+frases "hola" ?
+
+frases (({daniel} & { martinez bordes } ) | {ferran martinez felipe})?
+
+eliminar text
+
+info ?
+
+contingut ?
+
+nombre de paraules ?
+
+nombre de frases ?
+
+taula de frequencies ?
+
+substitueix "a" per "b" ?
+
+autor ?
+
+afegir cita 1 2 ?
+
+cites ?
+
+eliminar cita "DM1" ?
+
+info cita "DM1" ?
+
+cites autor "Daniel Martinez" ?
+
+totes cites ?
+
+triar text {la}
+
+triar text {beautiful}
+
+triar text {Wild Youth}
+
+afegir cita 1 1
+
+afegir cita 1 1
+
+afegir cita 2 2
+
+afegir cita 3 3
+
+afegir cita 4 4
+
+afegir cita 5 5
+
+afegir cita  6 6
+
+afegir cita 7 7
+
+afegir cita 8 8
+
+afegir cita 9 9
+
+afegir cita 10 10
+
+afegir cita 11 11
+
+afegir cita 12 12
+
+afegir cita -1 -2
+
+afegir cita 24 29
+
+afegir cita 1 20
+
+totes cites ?
+
+eliminar cita "SA11"
+
+totes cites ?
+
+afegir cita 1 3
+
+totes cites ?
+
+triar text {Critica a la razon}
+
+afegir cita 1 1
+
+cites ?
+
+triar text {El Abecedario}
+
+cites ?
+
+info cita "SA13" ?
+
+cites autor "Steve Angello" ?
+
+cites autor "Anonimo"
+
+totes cites ?
+
+eliminar cita "SA11"
+
+triar text {Critica a la razon}
+
+info ?
+
+contingut ?
+
+autor ?
+
+nombre de paraules ?
+
+nombre de frases ?
+
+taula de frequencies ?
+
+eliminar text
+
+info ?
+
+cites "Immanuel Kant" ?
+
+afegir text "La gaya ciencia" autor "Friedrich Nietzsche"
+Dios ha muerto.
+Dios sigue muerto.
+Y nosotros lo hemos matado.
+****
+
+tots autors ?
+
+tots textos ?
+
+triar text {Friedrich Nietzsche}
+
+info ?
+
+contingut ?
+
+taula de frequencies ?
+
+triar text {Abecedario}
+
+frases 1 1 ?
+
+frases -24 -3 ?
+
+frases 1 9 ?
+
+frases 0 1 ?
+
+frases "a b" ?
+
+frases "   a       " ?
+
+frases "a b c d " ?
+
+frases "a b c e" ?
+
+frases "a b c f" ?
+
+frases " " ?
+
+frases {a b c e} ?
+
+frases ({a} | ({u} & {v w})) ?
+
+frases ({a b c d} & {hola})?
+
+frases ({} & {}) ?
+
+frases (({a} & ({b c} &({d} & {f}))) | (({u} & {v}) & ({w} & ({x} & ({y} & {z}))))) ?
+
+frases (             { c } & (            ({  a} &             {b   })           | ( {d} & {j} ) )) ?
+
+frases asdf ?
+
+contingut ?
+
+taula de frequencies ?
+
+substitueix "a" per "b"
+
+taula de frequencies ?
+
+contingut ?
+
+substitueix "hola" per "adeu"
+
+contingut ?
+
+eliminar text
+
+tots textos ?
+
+tots autors ?
+
+triar text {           Nietzsche             }
+
+afegir cita 1 1
+
+info ?
+
+taula de frequencies ?
+
+sortir

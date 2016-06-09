@@ -1,0 +1,78 @@
+//-------------------------------MAIN-----------------------------------<--DANIEL
+
+
+//----------------------------------------------------------------------
+
+//---------------------------CJT-TEXTOS---------------------------------<--FERRAN
+VARIABLES:
+vector de TEXT
+int text_seleccionat
+map Autor
+
+FUNCIONS:
+triar_text
+eliminar_text
+textos_autor
+tots_textos
+tots_autors
+//-----------------------------------------------------------------------
+
+//----------------------------TEXT-------------------------------------<--FERRAN
+VARIABLES:
+lista de titol (strings)
+lista de autor (strings)
+vector de FRASE
+vector tipus de paraules (strings)
+vector nº de aparicions per paraula (int)
+
+FUNCIONS:
+substitueix paraules
+info
+autor
+contingut
+frases
+nombre_frases
+nombre_paraules
+taula_freqüencies
+frases <expressió>
+frases "paraula
+//--------------------------------------------------------------------------
+
+//---------------------------FRASE------------------------------------------<--FERRAN
+VARIABLES:
+Llista de strings
+int nº Paraules
+
+FUNCIONS:
+cerca_string
+//--------------------------------------------------------------------------
+
+//----------------------------CJT_CITES--------------------------------------<--DANIEL
+VARIABLES:
+Vector de Cita
+
+FUNCIONS:
+info_cita
+cites autor
+cites
+totes cites
+eliminar cita
+//---------------------------------------------------------------------------
+
+//----------------------------CITA--------------------------------------<--DANIEL
+VARIABLES:
+ID
+Títol
+Autor
+Vector de Frase
+
+FUNCIONS:
+Getters and Setters
+//---------------------------------------------------------------------------
+
+//----------------------------AUTOR--------------------------------------<--DANIEL
+VARIABLES:
+int nº de textos
+int nº de frases
+int nº paraules
+//---------------------------------------------------------------------------

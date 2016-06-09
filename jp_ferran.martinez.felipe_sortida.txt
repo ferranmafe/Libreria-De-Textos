@@ -1,0 +1,337 @@
+afegir text "El nombre del viento"
+
+afegir text "El texto aleatorio"
+
+triar text {vida bella}
+error
+
+contingut ?
+error
+
+frases 3 4 ?
+error
+
+frases "He robado princesas" ?
+error
+
+tots textos ?
+Ferran Martinez "El texto aleatorio"
+Patrick Rothfuss "El nombre del viento"
+
+tots autors ?
+Ferran Martinez 1 3 12
+Patrick Rothfuss 1 8 86
+
+triar text {nombre Rothfuss}
+
+autor ?
+Patrick Rothfuss
+
+contingut ?
+1 He robado princesas a reyes agonicos.
+2 Incendie la ciudad de Trebon.
+3 He pasado la noche con Felurian y he despertado vivo y cuerdo.
+4 Me expulsaron de la Universidad a una edad a la que a la mayoria todavia no los dejan entrar.
+5 He recorrido de noche caminos de los que otros no se atreven a hablar ni siquiera de dia.
+6 He hablado con dioses, he amado a mujeres y escrito canciones que hacen llorar a los bardos.
+7 Me llamo Kvothe.
+8 Quizas hayas oido hablar de mi.
+
+frases 3 4 ?
+3 He pasado la noche con Felurian y he despertado vivo y cuerdo.
+4 Me expulsaron de la Universidad a una edad a la que a la mayoria todavia no los dejan entrar.
+
+frases -1 3 ?
+error
+
+frases 3 3 ?
+3 He pasado la noche con Felurian y he despertado vivo y cuerdo.
+
+frases 4 3 ?
+error
+
+frases 3 25 ?
+error
+
+frases "la vida es bella" ?
+
+frases "Incendie la ciudad" ?
+2 Incendie la ciudad de Trebon.
+
+frases ({Incendie} & {Felurian despertado}) ?
+
+frases {Felurian} ?
+3 He pasado la noche con Felurian y he despertado vivo y cuerdo.
+
+taula de frequencies ?
+a 7
+de 6
+la 5
+He 4
+y 3
+los 3
+que 3
+Me 2
+he 2
+no 2
+con 2
+noche 2
+hablar 2
+mi 1
+ni 1
+se 1
+dia 1
+una 1
+edad 1
+oido 1
+vivo 1
+amado 1
+dejan 1
+hacen 1
+hayas 1
+llamo 1
+otros 1
+reyes 1
+Kvothe 1
+Quizas 1
+Trebon 1
+bardos 1
+ciudad 1
+cuerdo 1
+dioses 1
+entrar 1
+llorar 1
+pasado 1
+robado 1
+atreven 1
+caminos 1
+escrito 1
+hablado 1
+mayoria 1
+mujeres 1
+todavia 1
+Felurian 1
+Incendie 1
+agonicos 1
+siquiera 1
+canciones 1
+princesas 1
+recorrido 1
+despertado 1
+expulsaron 1
+Universidad 1
+
+triar text {caracola}
+
+contingut ?
+1 Hola hola hola caracola.
+2 Hola, caracola.
+3 Esto es un texto de prueba.
+
+nombre de paraules ?
+12
+
+nombre de frases ?
+3
+
+frases "hola caracola" ?
+1 Hola hola hola caracola.
+
+taula de frequencies ?
+Hola 2
+hola 2
+caracola 2
+de 1
+es 1
+un 1
+Esto 1
+texto 1
+prueba 1
+
+substitueix "hola" per "adios"
+
+taula de frequencies ?
+Hola 2
+adios 2
+caracola 2
+de 1
+es 1
+un 1
+Esto 1
+texto 1
+prueba 1
+
+afegir text "La musica de Doom"
+
+afegir text "Aleatoriedad"
+
+tots textos ?
+Ferran Martinez "El texto aleatorio"
+Mas aleatoriedad "Aleatoriedad"
+Patrick Rothfuss "El nombre del viento"
+pinjed "La musica de Doom"
+
+tots autors ?
+Ferran Martinez 1 3 12
+Mas aleatoriedad 1 6 31
+Patrick Rothfuss 1 8 86
+pinjed 1 3 171
+
+triar text {hola}
+
+triar text {Doom}
+
+contingut ?
+1 Cuando hablamos de los padres del first person shooter suelen aparecer nombres como John Carmack, John Romero, Tom Hall o Adrian Carmack, una generación de tecnicos, artistas y empresarios que lograron la combinacion de talento perfecta para generar una nueva manera de hacer videojuegos y tambien de jugarlos.
+2 El frenetismo, la ultraviolencia, la rabia, la angustia y la sensacion de que el heroe al que controlabamos tenia muy poco de noble y mucho de psicopata justificado por la hostilidad del entorno conformaban una manera muy particular de enfocar la accion, y habia una evidente influencia cultural que reforzaba aquella imagineria deliberadamente maligna: el thrash metal.
+3 Bandas como Slayer, Pantera o Metallica fueron una inspiracion directa en la estetica y el ritmo de los tiroteos de Wofenstein 3D y sobre todo de Doom, pero tambien la base sonora sobre la que trabajo un tipo cuyo nombre no se relaciona tanto con el nacimiento del genero pero tiene tanta responsabilidad y tanto merito como los propios Carmack y Romero: el compositor Robert Prince.
+
+frases "hablamos de los padres" ?
+1 Cuando hablamos de los padres del first person shooter suelen aparecer nombres como John Carmack, John Romero, Tom Hall o Adrian Carmack, una generación de tecnicos, artistas y empresarios que lograron la combinacion de talento perfecta para generar una nueva manera de hacer videojuegos y tambien de jugarlos.
+
+frases "y tambien de jugarlos de forma aleatoria" ?
+
+triar text {Aleatoriedad}
+
+taula de frequencies ?
+1234 2
+aaaa 2
+acab 2
+1 1
+111 1
+341 1
+aaa 1
+5436 1
+aaba 1
+abaa 1
+hola 1
+12321 1
+aaaaa 1
+aaaac 1
+aabba 1
+abaaa 1
+aaaaaa 1
+accaab 1
+7634331 1
+ababaaa 1
+accaccb 1
+accaccab 1
+asdfafda 1
+asdfafasa 1
+asdfasfrw 1
+1234512345 1
+fasfqrewqfaa 1
+aaaaaaaaaaaaaaaaaaaaaaaaaaa 1
+
+nombre de paraules ?
+31
+
+nombre de frases ?
+6
+
+autor ?
+Mas aleatoriedad
+
+contingut ?
+1 aaa aaaa aaaa aaaaa aaaaaa, aaba abaa aabba accaab aaaac ababaaa.
+2 abaaa aaaaaaaaaaaaaaaaaaaaaaaaaaa accaccab acab acab accaccb.
+3 asdfafda asdfasfrw fasfqrewqfaa.
+4 asdfafasa.
+5 111 1 1234 1234512345 12321 341 1234 5436 7634331.
+6 hola.
+
+frases {(((aaa aaaa) | (abaa)) &  aaac)} ?
+
+substitueix "aaaa" per "abaa"
+
+taula de frequencies ?
+abaa 3
+1234 2
+acab 2
+1 1
+111 1
+341 1
+aaa 1
+5436 1
+aaba 1
+hola 1
+12321 1
+aaaaa 1
+aaaac 1
+aabba 1
+abaaa 1
+aaaaaa 1
+accaab 1
+7634331 1
+ababaaa 1
+accaccb 1
+accaccab 1
+asdfafda 1
+asdfafasa 1
+asdfasfrw 1
+1234512345 1
+fasfqrewqfaa 1
+aaaaaaaaaaaaaaaaaaaaaaaaaaa 1
+
+eliminar text
+
+contingut ?
+error
+
+triar text {Doom}
+
+frases "hablamos" ?
+1 Cuando hablamos de los padres del first person shooter suelen aparecer nombres como John Carmack, John Romero, Tom Hall o Adrian Carmack, una generación de tecnicos, artistas y empresarios que lograron la combinacion de talento perfecta para generar una nueva manera de hacer videojuegos y tambien de jugarlos.
+
+afegir cita -1 3
+error
+
+afegir cita 2 2
+
+afegir cita 1 3
+
+totes cites ?
+p1
+2 El frenetismo, la ultraviolencia, la rabia, la angustia y la sensacion de que el heroe al que controlabamos tenia muy poco de noble y mucho de psicopata justificado por la hostilidad del entorno conformaban una manera muy particular de enfocar la accion, y habia una evidente influencia cultural que reforzaba aquella imagineria deliberadamente maligna: el thrash metal.
+pinjed "La musica de Doom"
+p2
+1 Cuando hablamos de los padres del first person shooter suelen aparecer nombres como John Carmack, John Romero, Tom Hall o Adrian Carmack, una generación de tecnicos, artistas y empresarios que lograron la combinacion de talento perfecta para generar una nueva manera de hacer videojuegos y tambien de jugarlos.
+2 El frenetismo, la ultraviolencia, la rabia, la angustia y la sensacion de que el heroe al que controlabamos tenia muy poco de noble y mucho de psicopata justificado por la hostilidad del entorno conformaban una manera muy particular de enfocar la accion, y habia una evidente influencia cultural que reforzaba aquella imagineria deliberadamente maligna: el thrash metal.
+3 Bandas como Slayer, Pantera o Metallica fueron una inspiracion directa en la estetica y el ritmo de los tiroteos de Wofenstein 3D y sobre todo de Doom, pero tambien la base sonora sobre la que trabajo un tipo cuyo nombre no se relaciona tanto con el nacimiento del genero pero tiene tanta responsabilidad y tanto merito como los propios Carmack y Romero: el compositor Robert Prince.
+pinjed "La musica de Doom"
+
+eliminar cita "p1"
+
+totes cites ?
+p2
+1 Cuando hablamos de los padres del first person shooter suelen aparecer nombres como John Carmack, John Romero, Tom Hall o Adrian Carmack, una generación de tecnicos, artistas y empresarios que lograron la combinacion de talento perfecta para generar una nueva manera de hacer videojuegos y tambien de jugarlos.
+2 El frenetismo, la ultraviolencia, la rabia, la angustia y la sensacion de que el heroe al que controlabamos tenia muy poco de noble y mucho de psicopata justificado por la hostilidad del entorno conformaban una manera muy particular de enfocar la accion, y habia una evidente influencia cultural que reforzaba aquella imagineria deliberadamente maligna: el thrash metal.
+3 Bandas como Slayer, Pantera o Metallica fueron una inspiracion directa en la estetica y el ritmo de los tiroteos de Wofenstein 3D y sobre todo de Doom, pero tambien la base sonora sobre la que trabajo un tipo cuyo nombre no se relaciona tanto con el nacimiento del genero pero tiene tanta responsabilidad y tanto merito como los propios Carmack y Romero: el compositor Robert Prince.
+pinjed "La musica de Doom"
+
+afegir cita 1 3
+error
+
+totes cites ?
+p2
+1 Cuando hablamos de los padres del first person shooter suelen aparecer nombres como John Carmack, John Romero, Tom Hall o Adrian Carmack, una generación de tecnicos, artistas y empresarios que lograron la combinacion de talento perfecta para generar una nueva manera de hacer videojuegos y tambien de jugarlos.
+2 El frenetismo, la ultraviolencia, la rabia, la angustia y la sensacion de que el heroe al que controlabamos tenia muy poco de noble y mucho de psicopata justificado por la hostilidad del entorno conformaban una manera muy particular de enfocar la accion, y habia una evidente influencia cultural que reforzaba aquella imagineria deliberadamente maligna: el thrash metal.
+3 Bandas como Slayer, Pantera o Metallica fueron una inspiracion directa en la estetica y el ritmo de los tiroteos de Wofenstein 3D y sobre todo de Doom, pero tambien la base sonora sobre la que trabajo un tipo cuyo nombre no se relaciona tanto con el nacimiento del genero pero tiene tanta responsabilidad y tanto merito como los propios Carmack y Romero: el compositor Robert Prince.
+pinjed "La musica de Doom"
+
+triar text {aleatorio}
+
+afegir cita 1 1
+
+cites ?
+FM1
+1 Hola adios adios caracola.
+Ferran Martinez "El texto aleatorio"
+
+triar text {Rothfuss}
+
+cites ?
+
+info cita "PR1" ?
+error
+
